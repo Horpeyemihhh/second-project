@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'Roboto';
+}
+.first-background {
+    background-color: hsl(0, 0%, 8%);
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.second-background {
+    background-color: hsl(0, 0%, 14%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 180px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 100%;
+    margin-top: 40px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);  
+  font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+}
+.first-paragraph {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+.second-paragraph {
+   color: hsl(0, 0%, 100%); 
+}
+
+
+.third-paragraph {
+    background-color: hsl(0, 0%, 14%);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+  background: hsl(0, 0%, 20%);
+  background-image: -webkit-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+  background-image: -moz-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+  background-image: -ms-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+  background-image: -o-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+  background-image: linear-gradient(to bottom, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: hsl(75, 94%, 57%);
+  background-image: -webkit-linear-gradient(top, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
+  background-image: -moz-linear-gradient(top, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
+  background-image: -ms-linear-gradient(top, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
+  background-image: -o-linear-gradient(top, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
+  background-image: linear-gradient(to bottom, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
+  text-decoration: none;
+}
