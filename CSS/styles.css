@@ -1,77 +1,92 @@
 body {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
     background-color: hsl(0, 0%, 12%);
     font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: nowrap;
 }
 .first-background {
     background-color: hsl(0, 0%, 8%);
     width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .second-background {
     background-color: hsl(0, 0%, 14%);
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 60px;
-    margin-bottom: 180px;
-    padding-bottom: 20px;
     border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 335px;
+    padding-bottom: 10px;
 }
 
 img {
-    border-radius: 100%;
-    margin-top: 40px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    height: 80px;
 }
 
-h2 {
-  color: hsl(0, 0%, 100%);  
-  font-weight: 700;
+h2 {  
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 20px 10px 0 10px;
+  font-size: 26px;
+  color: hsl(0, 0%, 90%);
 }
 
-p {
-    font-size: 14px;
-}
 .first-paragraph {
-    color: hsl(75, 94%, 57%);
+    color: hsl(75, 80%, 57%);
     font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    font-family: Geneva, Verdana, sans-serif; 
 }
 .second-paragraph {
-   color: hsl(0, 0%, 100%); 
+   font-size: 14px;
+   margin-bottom: 10px;
+   font-style: azimuth;
+   font-family: Geneva, Verdana, sans-serif;
+   font-stretch: expanded;
+   color: hsl(0, 0%, 80%);
 }
 
-
 .third-paragraph {
-    background-color: hsl(0, 0%, 14%);
-    margin-left: 20px;
-    margin-right: 20px;
+    text-align: center;
+    width: 295px;
 }
 
 .btn {
-  background: hsl(0, 0%, 20%);
-  background-image: -webkit-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
-  background-image: -moz-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
-  background-image: -ms-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
-  background-image: -o-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
-  background-image: linear-gradient(to bottom, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Roboto';
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 600;
+    background-image: -webkit-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+    background-image: -moz-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+    background-image: -ms-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+    background-image: -o-linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 20%), hsl(0, 0%, 20%));
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    box-sizing: border-box; /* padding is included in total width */
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .btn:hover {
@@ -82,4 +97,5 @@ p {
   background-image: -o-linear-gradient(top, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
   background-image: linear-gradient(to bottom, hsl(75, 94%, 57%), hsl(75, 94%, 57%));
   text-decoration: none;
+  color: hsl(0, 0%, 8%);
 }
